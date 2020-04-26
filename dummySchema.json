@@ -5,43 +5,76 @@
       "flows": {
         "1234gdhf": {
           "title": "Fetch horses",
-          "123452": {
-            "title": "User input",
-            "linkedTo": [123454, 123455],
-            "description": "",
-            "path": "/src/App.js",
-            "repo": "web-order",
-            "line": [123, 210]
-          },
-          "123454": {
-            "linkedTo": [],
-            "title": "PUT user api",
-            "linkedTo": [123454, 123455],
-            "description": "",
-            "path": "/",
-            "repo": "agskash"
-          },
-          "123457": {},
-          "123459": {},
-          "123451": {},
-          "123455": {},
-          "123452": {}
-        },
-        "12dg46": {
-          "title": "Sign up",
-          "123452": {},
-          "123452": {},
-          "123452": {},
-          "123452": {},
-          "123452": {}
+          "items": [
+            {
+              "id": 1,
+              "title": "Example Node 1",
+              "linkedTo": [123454, 123455],
+              "description": "",
+              "path": "/src/App.js",
+              "repo": "web-order"
+            },
+            {
+              "id": 2,
+              "linkedTo": [],
+              "title": "Example Node 2",
+              "linkedTo": [123454, 123455],
+              "description": "",
+              "path": "/",
+              "repo": "agskash"
+            },
+            {
+              "id": 3,
+              "linkedTo": [],
+              "title": "Example Node 3",
+              "linkedTo": [123454, 123455],
+              "description": "",
+              "path": "/",
+              "repo": "agskash"
+            },
+            {
+              "id": 4,
+              "linkedTo": [],
+              "title": "Example Node 3",
+              "linkedTo": [123454, 123455],
+              "description": "",
+              "path": "/",
+              "repo": "agskash"
+            }
+          ]
         }
       },
       "nodes": {
-        "123454": {
+        "1": {
+          "title": "Example Node 1",
           "linkedTo": [123454, 123455],
           "description": "",
-          "path": "",
-          "repo": ""
+          "path": "/src/App.js",
+          "repo": "web-order"
+        },
+        "2": {
+          "linkedTo": [],
+          "title": "Example Node 2",
+          "linkedTo": [123454, 123455],
+          "description": "",
+          "path": "/",
+          "repo": "agskash"
+        },
+        "3": {
+          "linkedTo": [],
+          "title": "Example Node 3",
+          "linkedTo": [123454, 123455],
+          "description": "",
+          "path": "/",
+          "repo": "agskash"
+        },
+        "4": {
+          "linkedTo": [],
+          "title": "Example Node 3",
+          "linkedTo": [123454, 123455],
+          "description": "",
+          "path": "/",
+          "repo": "agskash"
         }
       },
       "repos": {
@@ -52,7 +85,6 @@
           "": {}
         }
       }
-    },
-    "1233gfhf": {}
+    }
   }
 }
